@@ -1,4 +1,0 @@
-/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/obj/Debug/netcoreapp2.1/PublicadorMensagens.csprojAssemblyReference.cache
-/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/obj/Debug/netcoreapp2.1/PublicadorMensagens.csproj.CoreCompileInputs.cache
-/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/obj/Debug/netcoreapp2.1/PublicadorMensagens.AssemblyInfoInputs.cache
-/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/obj/Debug/netcoreapp2.1/PublicadorMensagens.AssemblyInfo.cs
