@@ -24,7 +24,7 @@ namespace APIMensagens.Controllers
         [HttpPost("BasicQueue")]
         public object BasicQueue(
             [FromServices]RabbitMQConfigurations configurations,
-            [FromBody]Conteudo conteudo)
+            [FromBody]MessageContent conteudo)
         {
             lock (_CONTADOR)
             {
@@ -49,7 +49,7 @@ namespace APIMensagens.Controllers
 
                     string message =
                         $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
-                        $"Conteúdo da Mensagem: {conteudo.Mensagem}";
+                        $"Conteúdo da Mensagem: {conteudo.Message}";
                     var body = Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(exchange: "",
@@ -69,7 +69,7 @@ namespace APIMensagens.Controllers
         [HttpPost("ExchangeQueue")]
         public object ExchangeQueue(
             [FromServices]RabbitMQConfigurations configurations,
-            [FromBody]Conteudo conteudo)
+            [FromBody]MessageContent conteudo)
         {
             lock (_CONTADOR)
             {
@@ -104,11 +104,81 @@ namespace APIMensagens.Controllers
 
                     string message =
                         $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
-                        $"Conteúdo da Mensagem: {conteudo.Mensagem}";
+                        $"Conteúdo da Mensagem: {conteudo.Message}";
                     var body = Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(exchange: exchangeName,
                                          routingKey: routingKey,
+                                         basicProperties: null,
+                                         body: body);
+
+                }
+
+                return new
+                {
+                    Resultado = "Mensagem encaminhada com sucesso"
+                };
+            }
+        }
+    
+    [HttpPost("ExchangeTopicQueue")]
+        public object ExchangeTopicQueue(
+            [FromServices]RabbitMQConfigurations configurations,
+            [FromBody]MessageContent conteudo)
+        {
+            lock (_CONTADOR)
+            {
+                _CONTADOR.Incrementar();
+
+                var factory = new ConnectionFactory()
+                {
+                    HostName = configurations.HostName,
+                    Port = configurations.Port,
+                    UserName = configurations.UserName,
+                    Password = configurations.Password
+                };
+
+                using (var connection = factory.CreateConnection())
+                using (var channel = connection.CreateModel())
+                {
+                    string exchangeName = "exchangeSeverityTopic";
+
+                    // routingkey = <source>.<severity>
+
+                    string queueName = "CriticalQueue";
+                    string routingKey = "*.critical";
+
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Topic);
+
+                    channel.QueueDeclare(queue: queueName,
+                                         durable: false,
+                                         exclusive: false,
+                                         autoDelete: false,
+                                         arguments: null);
+
+                    channel.QueueBind(queueName, exchangeName,routingKey, null);                                         
+
+                    string queueName2 = "WarningQueue";
+                    string routingKey2 = "*.warning";
+
+                    channel.QueueDeclare(queue: queueName2,
+                                         durable: false,
+                                         exclusive: false,
+                                         autoDelete: false,
+                                         arguments: null);
+
+                    channel.QueueBind(queueName2, exchangeName,routingKey2, null);                                         
+
+                    string message =
+                        $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
+                        $"Conteúdo da Mensagem: {conteudo.Message} - " + 
+                        $"Source: {conteudo.Source} - " + 
+                        $"Severidade da Mensagem: {conteudo.Severity}";
+
+                    var body = Encoding.UTF8.GetBytes(message);
+
+                    channel.BasicPublish(exchange: exchangeName,
+                                         routingKey: conteudo.Source + "." + conteudo.Severity,
                                          basicProperties: null,
                                          body: body);
 

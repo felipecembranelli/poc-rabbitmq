@@ -2,9 +2,11 @@
 
 namespace APIMensagens.Models
 {
-    public class Conteudo
+    public class MessageContent
     {
         [Required]
-        public string Mensagem { get; set; }
+        public string Message { get; set; }
+        public string Source { get; set; }
+        public string Severity { get; set;}
     }
 }
