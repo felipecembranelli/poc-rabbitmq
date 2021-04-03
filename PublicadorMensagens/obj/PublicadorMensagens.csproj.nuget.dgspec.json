@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/PublicadorMensagens.csproj": {}
+  },
+  "projects": {
+    "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/PublicadorMensagens.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/PublicadorMensagens.csproj",
+        "projectName": "PublicadorMensagens",
+        "projectPath": "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/PublicadorMensagens.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

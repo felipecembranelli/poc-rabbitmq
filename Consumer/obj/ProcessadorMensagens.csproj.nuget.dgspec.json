@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/ProcessadorMensagens.csproj": {}
+  },
+  "projects": {
+    "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/ProcessadorMensagens.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/ProcessadorMensagens.csproj",
+        "projectName": "ProcessadorMensagens",
+        "projectPath": "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/ProcessadorMensagens.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

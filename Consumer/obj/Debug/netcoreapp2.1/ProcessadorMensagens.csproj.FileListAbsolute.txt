@@ -1,0 +1,12 @@
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/bin/Debug/netcoreapp2.1/appsettings.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/bin/Debug/netcoreapp2.1/ProcessadorMensagens.deps.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/bin/Debug/netcoreapp2.1/ProcessadorMensagens.runtimeconfig.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/bin/Debug/netcoreapp2.1/ProcessadorMensagens.runtimeconfig.dev.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/bin/Debug/netcoreapp2.1/ProcessadorMensagens.dll
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/bin/Debug/netcoreapp2.1/ProcessadorMensagens.pdb
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/Debug/netcoreapp2.1/ProcessadorMensagens.csprojAssemblyReference.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/Debug/netcoreapp2.1/ProcessadorMensagens.csproj.CoreCompileInputs.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/Debug/netcoreapp2.1/ProcessadorMensagens.AssemblyInfoInputs.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/Debug/netcoreapp2.1/ProcessadorMensagens.AssemblyInfo.cs
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/Debug/netcoreapp2.1/ProcessadorMensagens.dll
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/Consumer/obj/Debug/netcoreapp2.1/ProcessadorMensagens.pdb

@@ -1,0 +1,14 @@
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/bin/Debug/netcoreapp2.1/APIMensagens.deps.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/bin/Debug/netcoreapp2.1/APIMensagens.runtimeconfig.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/bin/Debug/netcoreapp2.1/APIMensagens.runtimeconfig.dev.json
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/bin/Debug/netcoreapp2.1/APIMensagens.dll
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/bin/Debug/netcoreapp2.1/APIMensagens.pdb
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.csprojAssemblyReference.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.AssemblyInfoInputs.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.AssemblyInfo.cs
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.csproj.CoreCompileInputs.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.RazorAssemblyInfo.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.RazorAssemblyInfo.cs
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.RazorTargetAssemblyInfo.cache
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.dll
+/home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/APIMensagens/obj/Debug/netcoreapp2.1/APIMensagens.pdb
