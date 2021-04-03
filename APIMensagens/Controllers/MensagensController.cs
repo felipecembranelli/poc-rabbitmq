@@ -21,7 +21,7 @@ namespace APIMensagens.Controllers
             };
         }
 
-        [HttpPost]
+        [HttpPost("BasicQueue")]
         public object BasicQueue(
             [FromServices]RabbitMQConfigurations configurations,
             [FromBody]Conteudo conteudo)
@@ -66,7 +66,7 @@ namespace APIMensagens.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("ExchangeQueue")]
         public object ExchangeQueue(
             [FromServices]RabbitMQConfigurations configurations,
             [FromBody]Conteudo conteudo)
@@ -86,26 +86,32 @@ namespace APIMensagens.Controllers
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue: "TestesASPNETCoreExchange",
+                    string exchangeName = "exchange1";
+                    string queueName = "TestesASPNETCoreExchange";
+                    string routingKey = "routing1";
+
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
+                    //channel.QueueDeclare(queueName, false, false, false, null);
+                   
+
+                    channel.QueueDeclare(queue: queueName,
                                          durable: false,
                                          exclusive: false,
                                          autoDelete: false,
                                          arguments: null);
+
+                    channel.QueueBind(queueName, exchangeName,routingKey, null);                                         
 
                     string message =
                         $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
                         $"Conteúdo da Mensagem: {conteudo.Mensagem}";
                     var body = Encoding.UTF8.GetBytes(message);
 
-                    channel.BasicPublish(exchange: "exchange1",
-                                         routingKey: "TestesASPNETCore",
+                    channel.BasicPublish(exchange: exchangeName,
+                                         routingKey: routingKey,
                                          basicProperties: null,
                                          body: body);
 
-                    // channel.BasicPublish(exchange: "exchange2",
-                    //                      routingKey: "TestesASPNETCore",
-                    //                      basicProperties: null,
-                    //                      body: body);                                         
                 }
 
                 return new

@@ -12,29 +12,18 @@ namespace WebAPIClient
         static async Task Main(string[] args)
         {
             
-            await CreateMessage("http://localhost:5000", 10);    
+            await CreateMessage("http://localhost:5000/", args[0], int.Parse(args[1]));    
         }
 
-        private static async Task CreateMessage(string url, int numberRequests)
+        private static async Task CreateMessage(string url, string queue, int numberRequests)
         {
-            // client.DefaultRequestHeaders.Accept.Clear();
-            // client.DefaultRequestHeaders.Accept.Add(
-            //     new MediaTypeWithQualityHeaderValue("application/vnd.github.v3+json"));
-            // client.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
-
-            // var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
-
-            // var msg = await stringTask;
-            // Console.Write(msg);
-
-            //HttpClient client = new HttpClient();
             client.BaseAddress = new Uri(url);
 
             for (int i = 0; i < numberRequests; i++)
             {
                 var message  = "{'Mensagem': 'teste " + i.ToString() + "'}";
 
-                var response = await client.PostAsync("api/mensagens", new StringContent(message, System.Text.Encoding.UTF8, "application/json"));
+                var response = await client.PostAsync("api/mensagens/" + queue, new StringContent(message, System.Text.Encoding.UTF8, "application/json"));
                 if (response != null)
                 {
                     Console.WriteLine(response.ToString());

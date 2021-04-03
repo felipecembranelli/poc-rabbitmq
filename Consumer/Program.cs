@@ -46,14 +46,16 @@ namespace ProcessadorMensagens
                                      arguments: null);
 
                 var consumer = new EventingBasicConsumer(channel);
+                
                 consumer.Received += Consumer_Received;
                 channel.BasicConsume(queue: "TestesASPNETCore",
                      autoAck: true,
                      consumer: consumer);
 
                 var consumer2 = new EventingBasicConsumer(channel);
+
                 consumer2.Received += Consumer_Received;
-                channel.BasicConsume(queue: "TestesASPNETCore",
+                channel.BasicConsume(queue: "TestesASPNETCoreExchange",
                      autoAck: true,
                      consumer: consumer2);            
 
