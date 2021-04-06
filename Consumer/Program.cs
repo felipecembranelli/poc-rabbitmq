@@ -11,6 +11,7 @@ namespace ProcessadorMensagens
     class Program
     {
         private static IConfiguration _configuration;
+        private static IModel channel;
 
         static void Main(string[] args)
         {
@@ -37,7 +38,8 @@ namespace ProcessadorMensagens
             };
 
             using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
+
+            using (channel = connection.CreateModel())
             {
                 channel.QueueDeclare(queue: "TestesASPNETCore",
                                      durable: false,
@@ -45,6 +47,7 @@ namespace ProcessadorMensagens
                                      autoDelete: false,
                                      arguments: null);
 
+                // worker (1)
                 var consumer = new EventingBasicConsumer(channel);
                 
                 consumer.Received += Consumer_Received;
@@ -52,12 +55,20 @@ namespace ProcessadorMensagens
                      autoAck: true,
                      consumer: consumer);
 
+                // worker (2)
                 var consumer2 = new EventingBasicConsumer(channel);
-
                 consumer2.Received += Consumer_Received;
                 channel.BasicConsume(queue: "TestesASPNETCoreExchange",
                      autoAck: true,
                      consumer: consumer2);            
+                
+                // worker (3)
+                var consumer3 = new EventingBasicConsumer(channel);
+                consumer3.Received += Consumer_Received_with_ack;
+
+                channel.BasicConsume(queue: "CriticalQueue2",
+                     autoAck: false,
+                     consumer: consumer3);                                 
 
                 Console.WriteLine("Aguardando mensagens para processamento");
                 Console.WriteLine("Pressione uma tecla para encerrar...");
@@ -72,6 +83,21 @@ namespace ProcessadorMensagens
             var message = Encoding.UTF8.GetString(e.Body);
             Console.WriteLine(Environment.NewLine +
                 "[Nova mensagem recebida] " + message);
+        }
+
+        private static void Consumer_Received_with_ack(
+            object sender, BasicDeliverEventArgs e)
+        {
+            var message = Encoding.UTF8.GetString(e.Body);
+
+            Console.WriteLine(Environment.NewLine +
+                "[Nova mensagem recebida] " + message);
+
+            //pretend that message cannot be processed and must be rejected
+            if (message.Contains("10"))
+                channel.BasicReject(deliveryTag:e.DeliveryTag,false);
+            else
+                channel.BasicAck(deliveryTag:e.DeliveryTag, multiple:false);
         }
     }
 }

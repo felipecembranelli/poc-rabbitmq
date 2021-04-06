@@ -3,6 +3,8 @@ using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using RabbitMQ.Client;
 using APIMensagens.Models;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace APIMensagens.Controllers
 {
@@ -145,19 +147,27 @@ namespace APIMensagens.Controllers
 
                     // routingkey = <source>.<severity>
 
-                    string queueName = "CriticalQueue";
+                    // Queue (1) : critical messages
+                    string queueName = "CriticalQueue2";
                     string routingKey = "*.critical";
 
                     channel.ExchangeDeclare(exchangeName, ExchangeType.Topic);
+
+                    Dictionary<string,object> args = new Dictionary<string, object>();
+
+
+                    args.Add("x-dead-letter-exchange", "my-dead-letter-exchange");
+
 
                     channel.QueueDeclare(queue: queueName,
                                          durable: false,
                                          exclusive: false,
                                          autoDelete: false,
-                                         arguments: null);
+                                         arguments: args);
 
                     channel.QueueBind(queueName, exchangeName,routingKey, null);                                         
 
+                    // Queue (2) : warning messages
                     string queueName2 = "WarningQueue";
                     string routingKey2 = "*.warning";
 
