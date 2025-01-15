@@ -50,25 +50,29 @@ namespace ProcessadorMensagens
                 // worker (1)
                 var consumer = new EventingBasicConsumer(channel);
                 
-                consumer.Received += Consumer_Received;
-                channel.BasicConsume(queue: "TestesASPNETCore",
-                     autoAck: true,
-                     consumer: consumer);
+                //consumer.Received += Consumer_Received;
+                //channel.BasicConsume(queue: "TestesASPNETCore",
+                //     autoAck: true,
+                //     consumer: consumer);
 
-                // worker (2)
-                var consumer2 = new EventingBasicConsumer(channel);
-                consumer2.Received += Consumer_Received;
-                channel.BasicConsume(queue: "TestesASPNETCoreExchange",
-                     autoAck: true,
-                     consumer: consumer2);            
+                //// worker (2)
+                //var consumer2 = new EventingBasicConsumer(channel);
+                //consumer2.Received += Consumer_Received_with_ack;
+                //channel.BasicConsume(queue: "TestesASPNETCore",
+                //     autoAck: true,
+                //     consumer: consumer2);            
                 
                 // worker (3)
                 var consumer3 = new EventingBasicConsumer(channel);
                 consumer3.Received += Consumer_Received_with_ack;
 
-                channel.BasicConsume(queue: "CriticalQueue2",
+                channel.BasicConsume(queue: "TestesASPNETCore",
                      autoAck: false,
-                     consumer: consumer3);                                 
+                     consumer: consumer3);
+
+                //channel.BasicConsume(queue: "demo-queue",
+                //    autoAck: false,
+                //    consumer: consumer3);
 
                 Console.WriteLine("Aguardando mensagens para processamento");
                 Console.WriteLine("Pressione uma tecla para encerrar...");
@@ -95,9 +99,11 @@ namespace ProcessadorMensagens
 
             //pretend that message cannot be processed and must be rejected
             if (message.Contains("10"))
-                channel.BasicReject(deliveryTag:e.DeliveryTag,false);
+                channel.BasicReject(deliveryTag:e.DeliveryTag, true);
             else
                 channel.BasicAck(deliveryTag:e.DeliveryTag, multiple:false);
         }
+
+        
     }
 }

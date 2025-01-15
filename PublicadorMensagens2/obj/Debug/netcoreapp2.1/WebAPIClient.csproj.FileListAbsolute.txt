@@ -20,3 +20,17 @@
 /home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens2/obj/Debug/netcoreapp2.1/WebAPIClient.AssemblyInfo.cs
 /home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens2/obj/Debug/netcoreapp2.1/WebAPIClient.dll
 /home/felipe/projects/personal/RabbitMQ-DotNetCore2.1/ExemploRabbitMQ/PublicadorMensagens2/obj/Debug/netcoreapp2.1/WebAPIClient.pdb
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\WebAPIClient.deps.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\WebAPIClient.runtimeconfig.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\WebAPIClient.runtimeconfig.dev.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\WebAPIClient.dll
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\WebAPIClient.pdb
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.csproj.AssemblyReference.cache
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.AssemblyInfoInputs.cache
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.AssemblyInfo.cs
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.csproj.CoreCompileInputs.cache
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.sourcelink.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.dll
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.pdb
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\WebAPIClient.genruntimeconfig.cache
