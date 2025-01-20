@@ -1,0 +1,14 @@
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\Producer.deps.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\Producer.runtimeconfig.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\Producer.runtimeconfig.dev.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\Producer.dll
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\bin\Debug\netcoreapp2.1\Producer.pdb
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.csproj.AssemblyReference.cache
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.GeneratedMSBuildEditorConfig.editorconfig
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.AssemblyInfoInputs.cache
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.AssemblyInfo.cs
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.csproj.CoreCompileInputs.cache
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.sourcelink.json
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.dll
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.pdb
+D:\wkd\study\poc-rabbitmq\PublicadorMensagens2\obj\Debug\netcoreapp2.1\Producer.genruntimeconfig.cache

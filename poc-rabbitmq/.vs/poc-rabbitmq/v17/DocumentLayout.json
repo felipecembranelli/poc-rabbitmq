@@ -1,0 +1,268 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\wkd\\study\\poc-rabbitmq\\poc-rabbitmq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA0FD57-3E4F-4B3E-BD55-6236A68F3E64}|Solution Items{8CA0FD57-3E4F-4B3E-BD55-6236A68F3E64}|D:\\wkd\\study\\poc-rabbitmq\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D4DF8B8-29C7-478E-8CAC-C8285D7F34FC}|..\\Consumer\\ProcessadorMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\controllers\\mensagenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C04AF623-48AB-425E-8BFF-4039081E9B57}|..\\PublicadorMensagens2\\WebAPIClient.csproj|d:\\wkd\\study\\poc-rabbitmq\\publicadormensagens2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D4DF8B8-29C7-478E-8CAC-C8285D7F34FC}|..\\Consumer\\ProcessadorMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\consumer\\rabbitmqconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeQueueWorker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeLoaderJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\rabbitmqconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D4DF8B8-29C7-478E-8CAC-C8285D7F34FC}|..\\Consumer\\ProcessadorMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\consumer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E38AA3AD-561C-42E0-A88D-1797444FD771}|..\\APIMensagens\\APIMensagens.csproj|d:\\wkd\\study\\poc-rabbitmq\\apimensagens\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 248,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\Consumer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Consumer\\Program.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\Consumer\\Program.cs",
+              "RelativeToolTip": "..\\Consumer\\Program.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:16:44.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MensagensController.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Controllers\\MensagensController.cs",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\Controllers\\MensagensController.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Controllers\\MensagensController.cs",
+              "RelativeToolTip": "..\\APIMensagens\\Controllers\\MensagensController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwDMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:52:00.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\PublicadorMensagens2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PublicadorMensagens2\\Program.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\PublicadorMensagens2\\Program.cs",
+              "RelativeToolTip": "..\\PublicadorMensagens2\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:41:43.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RabbitMQConfigurations.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\Consumer\\RabbitMQConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\Consumer\\RabbitMQConfigurations.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\Consumer\\RabbitMQConfigurations.cs",
+              "RelativeToolTip": "..\\Consumer\\RabbitMQConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:16:43.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RabbitMQConfigurations.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\RabbitMQConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\RabbitMQConfigurations.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\RabbitMQConfigurations.cs",
+              "RelativeToolTip": "..\\APIMensagens\\RabbitMQConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:27:30.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Program.cs",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\Program.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Program.cs",
+              "RelativeToolTip": "..\\APIMensagens\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:47:00.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Startup.cs",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\Startup.cs",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Startup.cs",
+              "RelativeToolTip": "..\\APIMensagens\\Startup.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:39:00.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-15T18:18:00.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\local.settings.json",
+              "RelativeDocumentMoniker": "..\\..\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\local.settings.json",
+              "ToolTip": "D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\local.settings.json",
+              "RelativeToolTip": "..\\..\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\local.settings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T21:54:16.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "YouTubeQueueWorker.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeQueueWorker.cs",
+              "RelativeDocumentMoniker": "..\\..\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeQueueWorker.cs",
+              "ToolTip": "D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeQueueWorker.cs",
+              "RelativeToolTip": "..\\..\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeQueueWorker.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:38:21.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "YouTubeLoaderJob.cs",
+              "DocumentMoniker": "D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeLoaderJob.cs",
+              "RelativeDocumentMoniker": "..\\..\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeLoaderJob.cs",
+              "ToolTip": "D:\\wkd\\study\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeLoaderJob.cs",
+              "RelativeToolTip": "..\\..\\youtubeblink\\new-arch\\VideoQueueLoader\\VideoQueueLoader\\Jobs\\YouTubeLoaderJob.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:38:06.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\APIMensagens\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T21:47:04.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\Consumer\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Consumer\\appsettings.json",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\Consumer\\appsettings.json",
+              "RelativeToolTip": "..\\Consumer\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T22:16:13.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\appsettings.json",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\appsettings.json",
+              "RelativeToolTip": "..\\APIMensagens\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T21:39:51.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\APIMensagens\\appsettings.Development.json",
+              "ToolTip": "D:\\wkd\\study\\poc-rabbitmq\\APIMensagens\\appsettings.Development.json",
+              "RelativeToolTip": "..\\APIMensagens\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T21:39:09.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

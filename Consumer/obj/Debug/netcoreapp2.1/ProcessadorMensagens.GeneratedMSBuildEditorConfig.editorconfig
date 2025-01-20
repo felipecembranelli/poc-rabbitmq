@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = ProcessadorMensagens
+build_property.ProjectDir = D:\wkd\study\poc-rabbitmq\Consumer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

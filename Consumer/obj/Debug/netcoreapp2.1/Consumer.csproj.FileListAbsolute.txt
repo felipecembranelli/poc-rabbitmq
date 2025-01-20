@@ -1,0 +1,15 @@
+D:\wkd\study\poc-rabbitmq\Consumer\bin\Debug\netcoreapp2.1\appsettings.json
+D:\wkd\study\poc-rabbitmq\Consumer\bin\Debug\netcoreapp2.1\Consumer.deps.json
+D:\wkd\study\poc-rabbitmq\Consumer\bin\Debug\netcoreapp2.1\Consumer.runtimeconfig.json
+D:\wkd\study\poc-rabbitmq\Consumer\bin\Debug\netcoreapp2.1\Consumer.runtimeconfig.dev.json
+D:\wkd\study\poc-rabbitmq\Consumer\bin\Debug\netcoreapp2.1\Consumer.dll
+D:\wkd\study\poc-rabbitmq\Consumer\bin\Debug\netcoreapp2.1\Consumer.pdb
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.csproj.AssemblyReference.cache
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.AssemblyInfoInputs.cache
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.AssemblyInfo.cs
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.csproj.CoreCompileInputs.cache
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.sourcelink.json
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.dll
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.pdb
+D:\wkd\study\poc-rabbitmq\Consumer\obj\Debug\netcoreapp2.1\Consumer.genruntimeconfig.cache
